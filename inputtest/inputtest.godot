@@ -1,3 +1,6 @@
+config_version=3
+config_version=null
+
 [application]
 
 name="inputtest"
@@ -6,9 +9,16 @@ icon="res://icon.png"
 
 [input]
 
+a=[  ]
+Right=[  ]
+Enter=[  ]
+Return=[  ]
+Shift=[  ]
+Space=[  ]
 shift=[ InputEvent(KEY,16777237) ]
 shift+a=[ InputEvent(KEY,65,S) ]
-a=[ InputEvent(KEY,65) ]
+A=[ InputEvent(KEY,65) ]
+A_modignore=[ InputEvent(KEY,65,I), InputEvent(KEY,66) ]
 
 [memory]
 

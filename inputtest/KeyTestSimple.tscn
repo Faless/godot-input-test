@@ -4,7 +4,7 @@
 
 [node name="KeyTest" type="Node"]
 
-script/script = ExtResource( 1 )
+script = ExtResource( 1 )
 
 [node name="Control" type="Control" parent="."]
 
@@ -43,5 +43,25 @@ size_flags_vertical = 0
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Node2" type="Node" parent="Node"]
+
+[node name="Node5" type="Node" parent="Node"]
+
+[node name="Node" type="Node" parent="Node"]
+
+[node name="Node7" type="Node" parent="Node"]
+
+[node name="Node3" type="Node" parent="Node"]
+
+[node name="Node6" type="Node" parent="Node"]
+
+[node name="Node4" type="Node" parent="Node"]
+
+[node name="Node8" type="Node" parent="Node"]
+
+[node name="Node9" type="Node" parent="Node"]
 
 
